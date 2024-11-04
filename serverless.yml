@@ -29,7 +29,7 @@ functions:
     events:
       - http:
           path: /alumnos/modificar
-          method: post
+          method: put
           cors: true
           integration: lambda
   buscar:
@@ -45,7 +45,7 @@ functions:
     events:
       - http:
           path: /alumnos/eliminar
-          method: post
+          method: delete
           cors: true
           integration: lambda
 
